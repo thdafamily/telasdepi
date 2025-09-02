@@ -7,4 +7,10 @@
     <string name="app_final">Finalidade</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_pp">PP</string>
+    <string name="app_p">P</string>
+    <string name="app_m">M</string>
+    <string name="app_g">G</string>
+    <string name="app_gg">GG</string>
+    <string name="app_xgg">XGG</string>
 </resources>
