@@ -13,4 +13,16 @@
     <string name="app_g">G</string>
     <string name="app_gg">GG</string>
     <string name="app_xgg">XGG</string>
+
+    <string name="app_roupa">Roupa</string>
+    <string name="app_acessorio">Acessório</string>
+    <string name="app_calcado">Calçado</string>
+    <string name="app_trajebanho">Traje banho</string>
+    <string name="app_esporte">Esporte</string>
+    <string name="app_infantil">Infantil</string>
+    <string name="app_masculino">Masculino</string>
+    <string name="app_unissex">Unissex</string>
+    <string name="app_intima">Íntimo</string>
+    <string name="app_feminino">Feminino</string>
+
 </resources>
