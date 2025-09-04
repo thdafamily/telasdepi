@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Barra Superior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <!-- Botão voltar -->
+        <ImageButton
+            android:id="@+id/btnVoltar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Voltar"
+            android:tint="@color/black"/>
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Adicionar à gaveta"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <!-- Botão fechar -->
+        <ImageButton
+            android:id="@+id/btnFechar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Fechar"
+            android:tint="@color/black"/>
+    </LinearLayout>
+
+    <!-- Campo de busca -->
+    <EditText
+        android:id="@+id/edtPesquisarGavetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pesquisar minhas gavetas"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:inputType="text"/>
+
+    <!-- Lista de gavetas (exemplo simples com LinearLayout) -->
+    <LinearLayout
+        android:id="@+id/layoutGavetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <!-- Exemplo de item -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="casacos"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/item_background"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <!-- Botões -->
+    <Button
+        android:id="@+id/btnCriarGaveta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar nova gaveta"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verde"/>
+
+    <Button
+        android:id="@+id/btnSalvarAlteracoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar alterações"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/verde"/>
+
+</LinearLayout>
