@@ -9,5 +9,14 @@
         android:id="@+id/cadRoupaFragment"
         android:name="com.example.cadastroderoupa.CadRoupaFragment"
         android:label="fragment_cad_roupa"
-        tools:layout="@layout/fragment_cad_roupa" />
+        tools:layout="@layout/fragment_cad_roupa" >
+        <action
+            android:id="@+id/action_cadRoupaFragment_to_cadRoupa2Fragment"
+            app:destination="@id/cadRoupa2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cadRoupa2Fragment"
+        android:name="com.example.cadastroderoupa.CadRoupa2Fragment"
+        android:label="fragment_cad_roupa2"
+        tools:layout="@layout/fragment_cad_roupa2" />
 </navigation>

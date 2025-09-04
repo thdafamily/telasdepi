@@ -5,7 +5,7 @@
     <string name="app_categoria">Categoria</string>
     <string name="app_tamanho">Tamanho</string>
     <string name="app_final">Finalidade</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_pp">PP</string>
     <string name="app_p">P</string>
@@ -26,5 +26,16 @@
     <string name="app_feminino">Feminino</string>
 
     <string name="app_prox">Próximo</string>
+
+    <string name="app_doar">Doar</string>
+    <string name="app_vender">Vender</string>
+    <string name="app_organizar">Organizar</string>
+
+    <string name="app_novagaeta">Criar nova gaveta</string>
+    <string name="app_salvar">Salvar alterações</string>
+    <string name="app_pesquisargav">Pesquisar minhas gavetas</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="imagem_da_gaveta">Imagem da gaveta</string>
+    <string name="casacos">casacos</string>
 
 </resources>

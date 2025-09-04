@@ -28,16 +28,17 @@
         app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
         app:tint="@color/green" />
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="183dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="236dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="96dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_name"
         android:textColor="@color/green"
-        android:textSize="22sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,8 +47,8 @@
         android:id="@+id/imageView2"
         android:layout_width="100dp"
         android:layout_height="95dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/bg_image_rounded"
         android:contentDescription="@string/app_photo"
         android:padding="8dp"
@@ -58,23 +59,22 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="66dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="152dp"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="184dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_cor"
-        android:textSize="22sp"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="76dp"
         android:orientation="horizontal"
         android:padding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,30 +137,29 @@
             android:background="@drawable/rainbow" />
     </LinearLayout>
 
-
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="96dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="252dp"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="312dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_categoria"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="356dp"
         android:alignmentMode="alignMargins"
         android:columnCount="5"
         android:padding="8dp"
         android:rowCount="2"
         android:useDefaultMargins="true"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -170,6 +169,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_roupa" />
@@ -182,6 +182,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_acessorio"
@@ -193,9 +194,11 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/app_calcado" />
+            android:text="@string/app_calcado"
+            android:textSize="13sp" />
 
         <CheckBox
             android:layout_width="0dp"
@@ -203,6 +206,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_trajebanho"
@@ -214,6 +218,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_esporte" />
@@ -226,6 +231,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_masculino"
@@ -237,10 +243,11 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_feminino"
-            android:textSize="13sp" />
+            android:textSize="12sp" />
 
         <CheckBox
             android:layout_width="0dp"
@@ -248,6 +255,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_infantil" />
@@ -258,6 +266,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_intima" />
@@ -268,6 +277,7 @@
             android:layout_columnWeight="1"
             android:background="@drawable/selector_categoria"
             android:button="@null"
+            android:fontFamily="@font/raleway_medium"
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/app_unissex" />
@@ -318,13 +328,13 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="96dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="268dp"
+        android:layout_width="157dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="332dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_tamanho"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -332,7 +342,7 @@
         android:id="@+id/Tamanho"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="472dp"
+        android:layout_marginTop="580dp"
         android:background="@drawable/bg_segmented_border"
         android:orientation="horizontal"
         android:padding="2dp"
@@ -439,15 +449,15 @@
 
     </RadioGroup>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Proximo"
         android:layout_width="327dp"
         android:layout_height="40dp"
-        android:layout_marginTop="556dp"
+        android:layout_marginTop="688dp"
         android:layout_marginEnd="40dp"
+        android:background="@drawable/proximo"
         android:text="@string/app_prox"
         android:textColor="#083108"
-        android:background="@drawable/proximo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
