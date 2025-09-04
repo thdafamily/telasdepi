@@ -64,7 +64,7 @@
         android:layout_marginTop="152dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_cor"
-        android:textSize="17sp"
+        android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -146,7 +146,7 @@
         android:layout_marginTop="252dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_categoria"
-        android:textSize="17sp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -324,7 +324,7 @@
         android:layout_marginBottom="268dp"
         android:fontFamily="@font/playfair_display_semibold"
         android:text="@string/app_tamanho"
-        android:textSize="17sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -332,7 +332,7 @@
         android:id="@+id/Tamanho"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="468dp"
+        android:layout_marginTop="472dp"
         android:background="@drawable/bg_segmented_border"
         android:orientation="horizontal"
         android:padding="2dp"
@@ -438,5 +438,17 @@
             tools:layout_editor_absoluteY="489dp" />
 
     </RadioGroup>
+
+    <Button
+        android:id="@+id/Proximo"
+        android:layout_width="327dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/app_prox"
+        android:textColor="#083108"
+        android:background="@drawable/proximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

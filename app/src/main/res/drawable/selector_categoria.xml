@@ -2,7 +2,7 @@
     <!-- Quando selecionado -->
     <item android:state_checked="true">
         <shape android:shape="rectangle">
-            <solid android:color="#5E7858"/>
+            <solid android:color="#B0C8AC"/>
             <corners android:radius="16dp"/>
         </shape>
     </item>
@@ -10,7 +10,7 @@
     <!-- Quando não selecionado -->
     <item>
         <shape android:shape="rectangle">
-            <stroke android:color="#5E7858" android:width="2dp"/>
+            <stroke android:color="#B0C8AC" android:width="2dp"/>
             <corners android:radius="16dp"/>
             <solid android:color="@android:color/transparent"/>
         </shape>
