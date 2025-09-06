@@ -24,6 +24,25 @@ class CadRoupaFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initListeners()
+        barraDeNavegacao()
+    }
+
+    private fun barraDeNavegacao() {
+        binding.closet.setOnClickListener {
+            findNavController().navigate(R.id.closet)
+        }
+        binding.pesquisar.setOnClickListener {
+            findNavController().navigate(R.id.pesquisar)
+        }
+        binding.cadastrarRoupa.setOnClickListener {
+            findNavController().navigate(R.id.closet)
+        }
+        binding.doacao.setOnClickListener {
+            findNavController().navigate(R.id.closet)
+        }
+        binding.perfil.setOnClickListener {
+            findNavController().navigate(R.id.perfil)
+        }
     }
 
     private fun initListeners(){
