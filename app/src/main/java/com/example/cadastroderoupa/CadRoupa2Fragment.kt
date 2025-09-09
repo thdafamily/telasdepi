@@ -45,14 +45,17 @@ class CadRoupa2Fragment : Fragment() {
                 R.id.radioButton5 -> {
                     atualizarSpinner(listOf("Casacos", "Blusas", "Calças"))
                     editPreco.visibility = View.GONE
+                    binding.textview6.visibility = View.GONE
                 }
                 R.id.radioButton6 -> {
                     atualizarSpinner(listOf("Doações"))
                     editPreco.visibility = View.GONE
+                    binding.textview6.visibility = View.GONE
                 }
                 R.id.radioButton7 -> {
                     atualizarSpinner(listOf("Peças à venda"))
                     editPreco.visibility = View.VISIBLE
+                    binding.textview6.visibility = View.VISIBLE
                 }
             }
         }

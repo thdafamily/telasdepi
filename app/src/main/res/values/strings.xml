@@ -39,5 +39,6 @@
     <string name="casacos">casacos</string>
     <string name="digite_o_pre_o">Digite o preço</string>
     <string name="digite_o_pre">Digite o preço</string>
+    <string name="r">R$</string>
 
 </resources>
