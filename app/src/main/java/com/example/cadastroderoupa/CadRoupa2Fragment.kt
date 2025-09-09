@@ -34,6 +34,19 @@ class CadRoupa2Fragment : Fragment() {
         val spinner = binding.spinner
         val editPreco = binding.editEditText
 
+        val isEditing = arguments?.getBoolean("isEditing", false) ?: false
+
+        val btnCadastrarPeca = binding.btnCadastrarPeca
+        val btnSalvarAlteracoes = binding.btnSalvarAlteracoes
+
+        if (isEditing) {
+            btnCadastrarPeca.visibility = View.GONE
+            btnSalvarAlteracoes.visibility = View.VISIBLE
+        } else {
+            btnCadastrarPeca.visibility = View.VISIBLE
+            btnSalvarAlteracoes.visibility = View.GONE
+        }
+
         fun atualizarSpinner(opcoes: List<String>) {
             val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, opcoes)
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
